@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd; /* White with a hint of cream */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3389b1; /* Light blue */
+    padding: 20px;
+}
+
+header img {
+    max-width: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: #3389b1; /* Darker shade of blue */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form label {
+    margin-top: 10px;
+    color: #3389b1; /* Darker shade of blue */
+}
+
+form input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3389b1; /* Darker shade of blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2a6f8c; /* Even darker shade of blue */
+}
+
+section {
+    padding: 20px;
+}
+
+section h1 {
+    text-align: center;
+    color: #3389b1; /* Darker shade of blue */
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align the list */
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #3389b1; /* Blue color */
+    text-align: center; /* Center-align the text */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    /* Tablet and up */
+    header img {
+        max-width: 80%; /* Shrink logo */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Mobile devices */
+    header img {
+        max-width: 60%; /* Shrink logo even more */
+    }
+    
+    form input {
+        width: 90%;
+    }
+
+    table {
+        width: 90%;
+    }
+}
