@@ -1,10 +1,7 @@
-/* styles.css */
-
-/* Base styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fdfdfd; /* White with a hint of cream */
+    background-color: #fdfdfd; 
     color: #333;
 }
 
@@ -12,7 +9,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3389b1; /* Light blue */
+    background-color: #3389b1;
     padding: 20px;
 }
 
@@ -22,7 +19,7 @@ header img {
 
 h1 {
     text-align: center;
-    color: #3389b1; /* Darker shade of blue */
+    color: #3389b1;
 }
 
 form {
@@ -34,7 +31,7 @@ form {
 
 form label {
     margin-top: 10px;
-    color: #3389b1; /* Darker shade of blue */
+    color: #3389b1; 
 }
 
 form input {
@@ -49,7 +46,7 @@ form input {
 form button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #3389b1; /* Darker shade of blue */
+    background-color: #3389b1;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -57,7 +54,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #2a6f8c; /* Even darker shade of blue */
+    background-color: #2a6f8c;
 }
 
 section {
@@ -66,7 +63,7 @@ section {
 
 section h1 {
     text-align: center;
-    color: #3389b1; /* Darker shade of blue */
+    color: #3389b1;
 }
 
 table {
@@ -81,19 +78,18 @@ table {
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Center-align the list */
+    text-align: center;
 }
 
 li {
     padding: 10px;
     border-bottom: 1px solid #ccc;
-    color: #3389b1; /* Blue color */
-    text-align: center; /* Center-align the text */
+    color: #3389b1; 
+    text-align: center; 
 }
 
-/* Responsive styles */
 @media (min-width: 768px) {
-    /* Tablet and up */
+   
     header img {
         max-width: 80%; /* Shrink logo */
     }
